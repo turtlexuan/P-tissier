@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		204EEA4A1EF10C46001F5DA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EEA491EF10C46001F5DA6 /* AppDelegate.swift */; };
+		204EEA4C1EF10C46001F5DA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EEA4B1EF10C46001F5DA6 /* ViewController.swift */; };
+		204EEA4F1EF10C46001F5DA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204EEA4D1EF10C46001F5DA6 /* Main.storyboard */; };
+		204EEA521EF10C46001F5DA6 /* Pa_tissier.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 204EEA501EF10C46001F5DA6 /* Pa_tissier.xcdatamodeld */; };
+		204EEA541EF10C46001F5DA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204EEA531EF10C46001F5DA6 /* Assets.xcassets */; };
+		204EEA571EF10C46001F5DA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204EEA551EF10C46001F5DA6 /* LaunchScreen.storyboard */; };
+		204EEA5F1EF10CED001F5DA6 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EEA5E1EF10CED001F5DA6 /* ProductCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		204EEA461EF10C46001F5DA6 /* Pâtissier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pâtissier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		204EEA491EF10C46001F5DA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		204EEA4B1EF10C46001F5DA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		204EEA4E1EF10C46001F5DA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		204EEA511EF10C46001F5DA6 /* Pa_tissier.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pa_tissier.xcdatamodel; sourceTree = "<group>"; };
+		204EEA531EF10C46001F5DA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		204EEA561EF10C46001F5DA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		204EEA581EF10C46001F5DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204EEA5E1EF10CED001F5DA6 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		204EEA431EF10C46001F5DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		204EEA3D1EF10C46001F5DA6 = {
+			isa = PBXGroup;
+			children = (
+				204EEA481EF10C46001F5DA6 /* Pâtissier */,
+				204EEA471EF10C46001F5DA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		204EEA471EF10C46001F5DA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				204EEA461EF10C46001F5DA6 /* Pâtissier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		204EEA481EF10C46001F5DA6 /* Pâtissier */ = {
+			isa = PBXGroup;
+			children = (
+				204EEA491EF10C46001F5DA6 /* AppDelegate.swift */,
+				204EEA4B1EF10C46001F5DA6 /* ViewController.swift */,
+				204EEA4D1EF10C46001F5DA6 /* Main.storyboard */,
+				204EEA531EF10C46001F5DA6 /* Assets.xcassets */,
+				204EEA551EF10C46001F5DA6 /* LaunchScreen.storyboard */,
+				204EEA581EF10C46001F5DA6 /* Info.plist */,
+				204EEA501EF10C46001F5DA6 /* Pa_tissier.xcdatamodeld */,
+				204EEA5E1EF10CED001F5DA6 /* ProductCollectionViewCell.swift */,
+			);
+			path = "Pâtissier";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		204EEA451EF10C46001F5DA6 /* Pâtissier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 204EEA5B1EF10C46001F5DA6 /* Build configuration list for PBXNativeTarget "Pâtissier" */;
+			buildPhases = (
+				204EEA421EF10C46001F5DA6 /* Sources */,
+				204EEA431EF10C46001F5DA6 /* Frameworks */,
+				204EEA441EF10C46001F5DA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pâtissier";
+			productName = "Pâtissier";
+			productReference = 204EEA461EF10C46001F5DA6 /* Pâtissier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		204EEA3E1EF10C46001F5DA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "劉仲軒";
+				TargetAttributes = {
+					204EEA451EF10C46001F5DA6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = D3SFCFQ6Q5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 204EEA411EF10C46001F5DA6 /* Build configuration list for PBXProject "Pâtissier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 204EEA3D1EF10C46001F5DA6;
+			productRefGroup = 204EEA471EF10C46001F5DA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				204EEA451EF10C46001F5DA6 /* Pâtissier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		204EEA441EF10C46001F5DA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204EEA571EF10C46001F5DA6 /* LaunchScreen.storyboard in Resources */,
+				204EEA541EF10C46001F5DA6 /* Assets.xcassets in Resources */,
+				204EEA4F1EF10C46001F5DA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		204EEA421EF10C46001F5DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204EEA4C1EF10C46001F5DA6 /* ViewController.swift in Sources */,
+				204EEA4A1EF10C46001F5DA6 /* AppDelegate.swift in Sources */,
+				204EEA5F1EF10CED001F5DA6 /* ProductCollectionViewCell.swift in Sources */,
+				204EEA521EF10C46001F5DA6 /* Pa_tissier.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		204EEA4D1EF10C46001F5DA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				204EEA4E1EF10C46001F5DA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		204EEA551EF10C46001F5DA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				204EEA561EF10C46001F5DA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		204EEA591EF10C46001F5DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		204EEA5A1EF10C46001F5DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		204EEA5C1EF10C46001F5DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D3SFCFQ6Q5;
+				INFOPLIST_FILE = "Pâtissier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.turtlexuan.Pa-tissier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		204EEA5D1EF10C46001F5DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D3SFCFQ6Q5;
+				INFOPLIST_FILE = "Pâtissier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.turtlexuan.Pa-tissier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		204EEA411EF10C46001F5DA6 /* Build configuration list for PBXProject "Pâtissier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204EEA591EF10C46001F5DA6 /* Debug */,
+				204EEA5A1EF10C46001F5DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		204EEA5B1EF10C46001F5DA6 /* Build configuration list for PBXNativeTarget "Pâtissier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204EEA5C1EF10C46001F5DA6 /* Debug */,
+				204EEA5D1EF10C46001F5DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		204EEA501EF10C46001F5DA6 /* Pa_tissier.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				204EEA511EF10C46001F5DA6 /* Pa_tissier.xcdatamodel */,
+			);
+			currentVersion = 204EEA511EF10C46001F5DA6 /* Pa_tissier.xcdatamodel */;
+			path = Pa_tissier.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 204EEA3E1EF10C46001F5DA6 /* Project object */;
+}
