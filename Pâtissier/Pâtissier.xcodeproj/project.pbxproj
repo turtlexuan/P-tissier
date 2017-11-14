@@ -7,25 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2008308A1EFCEAFB00B8DCBA /* TableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200830891EFCEAFB00B8DCBA /* TableViewHeaderView.swift */; };
+		201BC1651EF77A4300B0FCA9 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201BC1641EF77A4300B0FCA9 /* BaseTabBarController.swift */; };
+		201BC1671EF77A5C00B0FCA9 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201BC1661EF77A5C00B0FCA9 /* TabBarController.swift */; };
 		204EEA4A1EF10C46001F5DA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EEA491EF10C46001F5DA6 /* AppDelegate.swift */; };
-		204EEA4C1EF10C46001F5DA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EEA4B1EF10C46001F5DA6 /* ViewController.swift */; };
-		204EEA4F1EF10C46001F5DA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204EEA4D1EF10C46001F5DA6 /* Main.storyboard */; };
 		204EEA521EF10C46001F5DA6 /* Pa_tissier.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 204EEA501EF10C46001F5DA6 /* Pa_tissier.xcdatamodeld */; };
 		204EEA541EF10C46001F5DA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204EEA531EF10C46001F5DA6 /* Assets.xcassets */; };
 		204EEA571EF10C46001F5DA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204EEA551EF10C46001F5DA6 /* LaunchScreen.storyboard */; };
-		204EEA5F1EF10CED001F5DA6 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EEA5E1EF10CED001F5DA6 /* ProductCollectionViewCell.swift */; };
+		204EEA621EF28A05001F5DA6 /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EEA611EF28A05001F5DA6 /* FacebookManager.swift */; };
+		204EEA641EF28AC8001F5DA6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EEA631EF28AC8001F5DA6 /* Constants.swift */; };
+		204EEA6A1EF28FEF001F5DA6 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EEA691EF28FEF001F5DA6 /* ProductCollectionViewCell.swift */; };
+		204EEA6D1EF2BBFC001F5DA6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204EEA6C1EF2BBFC001F5DA6 /* LoginViewController.swift */; };
+		2085C85D1EF4F64500300045 /* ProductCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2085C85C1EF4F64500300045 /* ProductCollectionViewController.swift */; };
+		2085C85F1EF4FFAE00300045 /* ProductManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2085C85E1EF4FFAE00300045 /* ProductManager.swift */; };
+		2085C8611EF55E1200300045 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2085C8601EF55E1100300045 /* Product.swift */; };
+		2085C8631EF6938E00300045 /* ProductCollectionViewNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2085C8621EF6938E00300045 /* ProductCollectionViewNavigationController.swift */; };
+		2085C8661EF699C300300045 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2085C8651EF699C300300045 /* BaseNavigationController.swift */; };
+		2085C8681EF6A88000300045 /* BaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2085C8671EF6A88000300045 /* BaseCollectionViewController.swift */; };
+		20DCC4331EF8BB52006213A9 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DCC4321EF8BB52006213A9 /* ProductTableViewCell.swift */; };
+		20DCC4351EF8BB61006213A9 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DCC4341EF8BB61006213A9 /* CommentTableViewCell.swift */; };
+		20DCC4371EF8ED6C006213A9 /* ProductDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DCC4361EF8ED6C006213A9 /* ProductDetailTableViewController.swift */; };
+		20DCC4391EF8ED79006213A9 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DCC4381EF8ED79006213A9 /* BaseTableViewController.swift */; };
+		7EE52BCACB0A018E8D210FCA /* Pods_Pa_tissier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4127415295C8A54D71D5DD /* Pods_Pa_tissier.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AA5706290BEE9D8A323063E /* Pods-Pâtissier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pâtissier.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pâtissier/Pods-Pâtissier.debug.xcconfig"; sourceTree = "<group>"; };
+		200830891EFCEAFB00B8DCBA /* TableViewHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewHeaderView.swift; sourceTree = "<group>"; };
+		201BC1641EF77A4300B0FCA9 /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		201BC1661EF77A5C00B0FCA9 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		204EEA461EF10C46001F5DA6 /* Pâtissier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pâtissier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		204EEA491EF10C46001F5DA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		204EEA4B1EF10C46001F5DA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		204EEA4E1EF10C46001F5DA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		204EEA511EF10C46001F5DA6 /* Pa_tissier.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pa_tissier.xcdatamodel; sourceTree = "<group>"; };
 		204EEA531EF10C46001F5DA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		204EEA561EF10C46001F5DA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		204EEA581EF10C46001F5DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		204EEA5E1EF10CED001F5DA6 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		204EEA611EF28A05001F5DA6 /* FacebookManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
+		204EEA631EF28AC8001F5DA6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		204EEA691EF28FEF001F5DA6 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		204EEA6C1EF2BBFC001F5DA6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2085C85C1EF4F64500300045 /* ProductCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewController.swift; sourceTree = "<group>"; };
+		2085C85E1EF4FFAE00300045 /* ProductManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductManager.swift; sourceTree = "<group>"; };
+		2085C8601EF55E1100300045 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		2085C8621EF6938E00300045 /* ProductCollectionViewNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewNavigationController.swift; sourceTree = "<group>"; };
+		2085C8651EF699C300300045 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		2085C8671EF6A88000300045 /* BaseCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewController.swift; sourceTree = "<group>"; };
+		20DCC4321EF8BB52006213A9 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		20DCC4341EF8BB61006213A9 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		20DCC4361EF8ED6C006213A9 /* ProductDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailTableViewController.swift; sourceTree = "<group>"; };
+		20DCC4381EF8ED79006213A9 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		4E4127415295C8A54D71D5DD /* Pods_Pa_tissier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pa_tissier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6868949E3EE77040AD3273FE /* Pods-Pâtissier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pâtissier.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pâtissier/Pods-Pâtissier.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EE52BCACB0A018E8D210FCA /* Pods_Pa_tissier.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +77,8 @@
 			children = (
 				204EEA481EF10C46001F5DA6 /* Pâtissier */,
 				204EEA471EF10C46001F5DA6 /* Products */,
+				7B6254404AF746453A729EF3 /* Pods */,
+				E2EC4D51C53484F4BD3FB5E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,15 +94,86 @@
 			isa = PBXGroup;
 			children = (
 				204EEA491EF10C46001F5DA6 /* AppDelegate.swift */,
-				204EEA4B1EF10C46001F5DA6 /* ViewController.swift */,
-				204EEA4D1EF10C46001F5DA6 /* Main.storyboard */,
 				204EEA531EF10C46001F5DA6 /* Assets.xcassets */,
 				204EEA551EF10C46001F5DA6 /* LaunchScreen.storyboard */,
 				204EEA581EF10C46001F5DA6 /* Info.plist */,
 				204EEA501EF10C46001F5DA6 /* Pa_tissier.xcdatamodeld */,
-				204EEA5E1EF10CED001F5DA6 /* ProductCollectionViewCell.swift */,
+				2085C8641EF699AB00300045 /* Base */,
+				204EEA601EF289E1001F5DA6 /* API */,
+				204EEA651EF28FDC001F5DA6 /* ViewController */,
+				204EEA6B1EF2900B001F5DA6 /* Model */,
+				204EEA681EF28FEF001F5DA6 /* View */,
+				204EEA631EF28AC8001F5DA6 /* Constants.swift */,
 			);
 			path = "Pâtissier";
+			sourceTree = "<group>";
+		};
+		204EEA601EF289E1001F5DA6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				204EEA611EF28A05001F5DA6 /* FacebookManager.swift */,
+				2085C85E1EF4FFAE00300045 /* ProductManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		204EEA651EF28FDC001F5DA6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				201BC1661EF77A5C00B0FCA9 /* TabBarController.swift */,
+				204EEA6C1EF2BBFC001F5DA6 /* LoginViewController.swift */,
+				2085C85C1EF4F64500300045 /* ProductCollectionViewController.swift */,
+				2085C8621EF6938E00300045 /* ProductCollectionViewNavigationController.swift */,
+				20DCC4361EF8ED6C006213A9 /* ProductDetailTableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		204EEA681EF28FEF001F5DA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				204EEA691EF28FEF001F5DA6 /* ProductCollectionViewCell.swift */,
+				20DCC4321EF8BB52006213A9 /* ProductTableViewCell.swift */,
+				20DCC4341EF8BB61006213A9 /* CommentTableViewCell.swift */,
+				200830891EFCEAFB00B8DCBA /* TableViewHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		204EEA6B1EF2900B001F5DA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2085C8601EF55E1100300045 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2085C8641EF699AB00300045 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2085C8651EF699C300300045 /* BaseNavigationController.swift */,
+				2085C8671EF6A88000300045 /* BaseCollectionViewController.swift */,
+				201BC1641EF77A4300B0FCA9 /* BaseTabBarController.swift */,
+				20DCC4381EF8ED79006213A9 /* BaseTableViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7B6254404AF746453A729EF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AA5706290BEE9D8A323063E /* Pods-Pâtissier.debug.xcconfig */,
+				6868949E3EE77040AD3273FE /* Pods-Pâtissier.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2EC4D51C53484F4BD3FB5E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E4127415295C8A54D71D5DD /* Pods_Pa_tissier.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 204EEA5B1EF10C46001F5DA6 /* Build configuration list for PBXNativeTarget "Pâtissier" */;
 			buildPhases = (
+				E6B2D710FAF9D98E3C2BBF7F /* [CP] Check Pods Manifest.lock */,
 				204EEA421EF10C46001F5DA6 /* Sources */,
 				204EEA431EF10C46001F5DA6 /* Frameworks */,
 				204EEA441EF10C46001F5DA6 /* Resources */,
+				66EDED06DE6A57098A8DC097 /* [CP] Embed Pods Frameworks */,
+				2B3044FB8E66813C93D59E9D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,12 +206,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "劉仲軒";
 				TargetAttributes = {
 					204EEA451EF10C46001F5DA6 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = D3SFCFQ6Q5;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,35 +242,105 @@
 			files = (
 				204EEA571EF10C46001F5DA6 /* LaunchScreen.storyboard in Resources */,
 				204EEA541EF10C46001F5DA6 /* Assets.xcassets in Resources */,
-				204EEA4F1EF10C46001F5DA6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B3044FB8E66813C93D59E9D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pâtissier/Pods-Pâtissier-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66EDED06DE6A57098A8DC097 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pâtissier/Pods-Pâtissier-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pâtissier/Pods-Pâtissier-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6B2D710FAF9D98E3C2BBF7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pâtissier-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		204EEA421EF10C46001F5DA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				204EEA4C1EF10C46001F5DA6 /* ViewController.swift in Sources */,
+				20DCC4391EF8ED79006213A9 /* BaseTableViewController.swift in Sources */,
+				204EEA6D1EF2BBFC001F5DA6 /* LoginViewController.swift in Sources */,
+				2085C85D1EF4F64500300045 /* ProductCollectionViewController.swift in Sources */,
+				20DCC4331EF8BB52006213A9 /* ProductTableViewCell.swift in Sources */,
+				2085C8611EF55E1200300045 /* Product.swift in Sources */,
+				2085C8681EF6A88000300045 /* BaseCollectionViewController.swift in Sources */,
 				204EEA4A1EF10C46001F5DA6 /* AppDelegate.swift in Sources */,
-				204EEA5F1EF10CED001F5DA6 /* ProductCollectionViewCell.swift in Sources */,
+				2085C85F1EF4FFAE00300045 /* ProductManager.swift in Sources */,
+				204EEA6A1EF28FEF001F5DA6 /* ProductCollectionViewCell.swift in Sources */,
+				2085C8631EF6938E00300045 /* ProductCollectionViewNavigationController.swift in Sources */,
+				2085C8661EF699C300300045 /* BaseNavigationController.swift in Sources */,
+				204EEA621EF28A05001F5DA6 /* FacebookManager.swift in Sources */,
+				20DCC4351EF8BB61006213A9 /* CommentTableViewCell.swift in Sources */,
+				201BC1651EF77A4300B0FCA9 /* BaseTabBarController.swift in Sources */,
+				2008308A1EFCEAFB00B8DCBA /* TableViewHeaderView.swift in Sources */,
+				201BC1671EF77A5C00B0FCA9 /* TabBarController.swift in Sources */,
 				204EEA521EF10C46001F5DA6 /* Pa_tissier.xcdatamodeld in Sources */,
+				204EEA641EF28AC8001F5DA6 /* Constants.swift in Sources */,
+				20DCC4371EF8ED6C006213A9 /* ProductDetailTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		204EEA4D1EF10C46001F5DA6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				204EEA4E1EF10C46001F5DA6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		204EEA551EF10C46001F5DA6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -182,7 +362,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -190,7 +372,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -233,7 +419,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -241,7 +429,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -269,6 +461,7 @@
 		};
 		204EEA5C1EF10C46001F5DA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AA5706290BEE9D8A323063E /* Pods-Pâtissier.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D3SFCFQ6Q5;
@@ -276,12 +469,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.turtlexuan.Pa-tissier";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		204EEA5D1EF10C46001F5DA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6868949E3EE77040AD3273FE /* Pods-Pâtissier.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D3SFCFQ6Q5;
@@ -289,7 +484,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.turtlexuan.Pa-tissier";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -312,6 +508,7 @@
 				204EEA5D1EF10C46001F5DA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

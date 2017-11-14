@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import FBSDKCoreKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,7 +18,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+        
+        UIApplication.shared.statusBarStyle = .lightContent
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        
+//        let viewController = ViewController()
+        
+//        viewController.view.backgroundColor = .white
+        
+        let loginVC = LoginViewController()
+        
+        self.window?.rootViewController = loginVC
+        self.window?.makeKeyAndVisible()
+
         return true
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+//        [[FBSDKApplicationDelegate sharedInstance] application:application
+//            openURL:url
+//            sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]
+//            annotation:options[UIApplicationOpenURLOptionsAnnotationKey]
+//        ];
+        
+        return FBSDKApplicationDelegate.sharedInstance().application(app, open: url, sourceApplication: options[UIApplicationOpenURLOptionsKey.sourceApplication] as! String, annotation: options[UIApplicationOpenURLOptionsKey.annotation])
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
